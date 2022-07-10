@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.rlj</groupId>
-  <artifactId>simplejava-jar-quickstart-test</artifactId>
+  <artifactId>simplejava-jar-quickstart</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>simplejava-jar-quickstart</name>
@@ -18,6 +18,10 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
